@@ -1,0 +1,233 @@
+@charset "UTF-8";
+
+/* IMPORT DE FONTES */
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Concert+One&family=Gwendolyn:wght@400;700&family=Oswald:wght@300&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Indie+Flower&family=Oswald:wght@200..700&family=Rubik+Mono+One&display=swap');
+
+/* VARIÁVEIS */
+
+:root {
+    --cor0: #000000;
+    --cor1: #ffffff;
+    --cor2: #e53939;
+    --fonte-padrão:
+}
+
+@media (min-width: 300px) and (max-width: 700px) {
+    p, li {
+       font-size: 10px;
+    }
+   }
+   
+   main h3 {
+       font-size: 20px;
+   }
+
+@media (min-width: 701px) and (max-width: 1439px) {
+   main p {
+       margin: 10px 0px;
+   }
+   }
+      
+   main h3 {
+       margin: 10px 0px;
+   }
+
+
+@media (min-width: 1025px) and (max-width: 2560px) {
+    #desenvolvimento2 {
+        display: flex;
+        justify-content: space-evenly;
+        height: 720px;
+        align-items: center;
+        text-align: center;
+        margin: 40px;
+    }
+
+   .section2 h2 {
+    font-size: 50px;
+
+    }
+
+    .section2 p {
+    font-size: 20px;
+
+    }
+
+    .section2 img {
+        height: 100px;
+        width: 100px;
+        padding: 10px;
+    }
+
+}
+/* SOBRE MIM */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    color: var(--cor1);
+    background-color: var(--cor0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin: 0px 25px 0px 25px;
+}
+
+li a, h1, h2 { /* Fonte importada */
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h3 { /* Fonte importada */
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+ p { /* Fonte importada */
+    font-family: "Oswald", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 300;
+      font-style: normal;
+}
+
+nav ul.painel1 { 
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    list-style-type: none;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor1);
+}
+
+li a {
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: var(--cor2);
+    transition-duration: 1s;
+}
+
+#perfil img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid var(--cor2)
+}
+
+.perfil {
+    margin-bottom: 0px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+header h1, h2 {
+    color: var(--cor2);
+    margin: 10px 0px 5px 0px;
+}
+
+.desenvolvimento {
+    margin: 10px 0px;
+    border: 10px 10px;
+    padding: 10px 0px;
+    text-align: justify;
+}
+
+.section1 {
+    padding: 2px;
+    margin: 10px 0px 10px 0px;
+}
+
+.section1 ul {
+    margin-left: 35px;
+    line-height: 25px;
+}
+
+.section1 p {
+    margin-top: 5px;
+
+}
+
+span#meunome:hover {
+    color: var(--cor2);
+    transition-duration: 1s;
+}
+
+#footer1 img {
+    height: 40px;
+    width: 40px;
+}
+
+#footer1 {
+    justify-content: center;
+    display: flex;
+    padding-top: 0px;
+    border: 10px 10px;
+    height: 100px; 
+}
+
+#footer1 a {
+    margin: 20px;
+    text-align: center;
+}
+
+#footer1 p:hover {
+    color: var(--cor2);
+    transition-duration: 1s;
+}
+
+
+/* FALE COMIGO */
+
+nav ul.painel2 { 
+    display:flex;
+    justify-content: space-around;
+    padding: 30px;
+    list-style-type: none;
+    align-items: center;
+}
+
+#desenvolvimento2 {
+    text-align: center;
+    align-items: center;
+    margin: 40px;
+}
+
+span#meunome2 {
+    color: var(--cor2);
+}
+
+.section2 h2 {
+    font-size: 50px;
+}
+
+.section2 p {
+    font-size: 20px;
+}
+
+.section2 img {
+    height: 100px;
+    width: 100px;
+}
+
+#footer2 {
+    justify-content: center;
+    display: flex;
+    height: 80px; 
+    align-items: center;
+}
+
